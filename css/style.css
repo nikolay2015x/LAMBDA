@@ -1,0 +1,159 @@
+header{
+    background-image: url(../image/Bg1.png);
+    width: 100%;
+    box-shadow: inset 0px 100px 40px 0px rgba(14, 12, 12, 0.3);
+}
+.menu{
+    width: 1170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.menu-logo{
+    width: 30%;
+}
+@media all and (max-width: 1170px){
+    .menu-logo{
+        display: none;
+    }
+}
+.menu-p {
+    display: flex;
+    align-items: center;
+}
+.menu-p ul{
+    display: flex;
+}
+.menu-p ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 35px 30px;
+    font-size: 21px;
+    font-family: 'Gentium Book Basic', serif;
+}
+.menu-p ul li a:hover{
+    border-top: solid 2px white;
+}
+@media all and (max-width: 1170px){
+    .menu-logo{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+    }
+}
+@media all and (max-width: 760px){
+    .menu-p ul li a{
+        padding: 35px 10px;
+    }
+}
+@media all and (max-width: 560px){
+    .menu{
+        display: none;
+    }
+}
+
+
+.menu-mobale{
+    display: none;
+}
+@media all and (max-width: 560px){
+    .menu-mobale{
+        display: block;
+    }
+}
+.fff{
+    max-width: 560px;
+    height: 70px;
+    background-color: rgba(51, 56, 55, 0.377);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mobale-icon{
+    width: 50px;
+    height: 50px;
+    border: solid 1px white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.mobale-line{
+    width: 35px;
+    height: 2px;
+    color: white;
+    margin-top: 9px;
+}
+.mobile-p{
+    background-color: rgba(51, 56, 55, 0.377);
+    display: none;
+}
+.mobile-p ul{
+    margin-top: -7px;
+}
+.mobile-p ul li{
+    margin-top: 7px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.mobile-p ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: 'Gentium Book Basic', serif;
+}
+.mobile-p ul li:hover{
+    background-color: rgba(32, 31, 34, 0.301);
+}
+
+.mobaile-logo img{
+    width: 150px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+.content{
+    text-align: center;
+}
+.content-text{
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.922);
+    text-shadow: 0px 1px 2px rgba(1, 1, 1, 0.64);
+    font-family: 'Yeseva One', cursive;
+    margin-top: 80px;
+}
+.content-text p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content-botton button{
+    margin: 20px 15px 120px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Lato";
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+}
+@media all and (max-width: 473px){
+    .content-botton button{
+        margin: 10px 15px 15px 0px;
+    }
+}
+.content-botton button:hover{
+    opacity: 0.8;
+}
+.content-btn{
+    background-color: rgba(0, 0, 0, 0.39);
+    border: 1px solid black;
+}
+.content-ntb{
+    background-color: rgba(255, 255, 255, 0.39);
+    border: 1px solid white;
+}
