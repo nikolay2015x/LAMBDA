@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-image: url(../image/Bg1.png);
     width: 100%;
