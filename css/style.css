@@ -197,9 +197,9 @@ header{
     max-width: 500px;
     text-align: center;
     position: relative;
-        top: 50%;
-        left: 75%;
-        transform: translate(-50%, -50%)
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%)
 }
 @media all and (max-width: 1015px){
     .ingredients-block{
@@ -224,4 +224,80 @@ header{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+}
+.section-menu{
+    background-image: url(../image/background-1.png);
+    width: 100%;
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1100px;
+}
+.menu-item{
+    text-align: center;
+}
+.menu-headline{
+    font-size: 36px;
+    font-family: "YesevaOne";
+    color: rgb(204, 153, 0);
+    margin: 40px 0 20px 0;
+}
+.menu-section{
+    margin: 30px 0;
+}
+.menu-title{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-title p{
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: rgb(200, 159, 45);
+}
+.munu-line hr{
+    background-color: rgb(200, 159, 45);
+    height: 1px;
+    border: none;
+}
+.menu-info p{
+    color: rgb(131, 124, 124);
+    font-family: 'Yeseva One', cursive;
+}
+.reviews{
+    background-image: url(../image/bg-1.png);
+    width: 100%;
+    height: 700px;
+}
+.reviews-block{
+    background-color: rgba(0, 0, 0, 0.705);
+    max-width: 650px;
+    /* height: 550px; */
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.reviews-heading p{
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: rgb(255, 255, 255);
+    padding: 30px 0 20px 0;
+}
+.reviews-text{
+    font-size: 25px;
+    font-family: 'Gentium Book Basic', serif;
+    color: rgb(221, 224, 223);
+    font-weight: bold;
+    line-height: 1.8;
+    padding: 50px;
+}
+.reviews-city p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 20px;
 }
