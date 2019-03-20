@@ -220,10 +220,20 @@ header{
     margin: 20px 0px 30px 0px;
     padding: 0px 40px 0px 40px;
 }
+@media all and (max-width: 456px){
+    .ingredients-text{
+        margin: 10px 0px 20px 0px;
+    }
+}
 .ingredients-image{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+}
+@media all and (max-width: 456px){
+    .ingredients-image{
+        padding-bottom: 10px;
+    }
 }
 .section-menu{
     background-image: url(../image/background-1.png);
@@ -241,7 +251,7 @@ header{
 }
 .menu-headline{
     font-size: 36px;
-    font-family: "YesevaOne";
+    font-family: 'Yeseva One', cursive;
     color: rgb(204, 153, 0);
     margin: 40px 0 20px 0;
 }
@@ -274,7 +284,7 @@ header{
 .reviews-block{
     background-color: rgba(0, 0, 0, 0.705);
     max-width: 650px;
-    /* height: 550px; */
+    height: auto;
     text-align: center;
     position: relative;
     top: 50%;
@@ -300,4 +310,132 @@ header{
     font-size: 20px;
     font-family: 'Yeseva One', cursive;
     padding-bottom: 20px;
+}
+.resarvation{
+    background-image: url(../image/background.png);
+    width: 100%;
+}
+.resarvation-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    /* width: 1100px; */
+    padding: 50px 0;
+}
+
+.resarvation-image img{
+    margin-right: 30px;
+}
+@media all and (max-width: 620px){
+    .resarvation-image img{
+        display: none;
+    }
+}
+.resarvation-block{
+    max-width: 400px;
+    text-align: center;
+}
+
+@media all and (max-width: 1020px){
+    .resarvation-block{
+        margin-top: 50px;
+    }
+}
+.resarvation-heading{
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: rgb(204, 153, 0);
+}
+.resarvation-text{
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(76, 76, 76);
+    line-height: 1.5;
+}
+.resarvation-text p{
+    margin: 30px 0;
+}
+input {
+    border-width: 1px;
+    border-color: rgb(200, 198, 198);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 7px;
+    width: 150px;
+}  
+input:invalid {
+    border: solid 1px red;
+}
+.booking{
+    display: flex;
+    justify-content: space-between;
+}
+.booking p{
+    text-align: left;
+    font-size: 14px;
+    color: rgb(201, 161, 49);
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.booking-data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.booking-data label{
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(201, 161, 49);
+    font-weight: bold;
+    margin-bottom: -7px;
+}
+.buttom-submit button{
+    border-width: 1px;
+    border-color: rgb(200, 159, 45);
+    border-style: solid;
+    background-color: rgba(200, 159, 45, 0.98);
+    font-size: 16px;
+    font-family: 'Gentium Book Basic', serif;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.buttom-submit button:hover{
+    opacity: 0.8;
+}
+footer{
+    background-color: black;
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.column{
+    text-align: center;
+    max-width: 350px;
+    padding: 80px 30px;
+}
+@media all and (max-width: 1040px){
+    .column{
+        padding: 30px 30px;
+    }
+}
+.column-heading p{
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: rgb(254, 254, 254);
+    margin-bottom: 20px;
+}
+.column-text p{
+    font-size: 16px;
+    font-family: 'Gentium Book Basic', serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-top: 20px;
 }
