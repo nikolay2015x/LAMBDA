@@ -233,6 +233,10 @@ header{
     justify-content: center;
     padding-bottom: 30px;
 }
+.ingredients-image img{
+    width: 30%;
+    height: auto;
+}
 @media all and (max-width: 456px){
     .ingredients-image{
         padding-bottom: 10px;
@@ -307,7 +311,7 @@ header{
     color: rgb(221, 224, 223);
     font-weight: bold;
     line-height: 1.8;
-    padding: 50px;
+    padding: 15px;
 }
 .reviews-city p{
     color: white;
@@ -358,7 +362,7 @@ header{
     line-height: 1.5;
 }
 .resarvation-text p{
-    margin: 30px 0;
+    margin: 30px 15px;
 }
 input {
     border-width: 1px;
@@ -366,17 +370,19 @@ input {
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.4);
     padding: 7px;
-    width: 150px;
+    margin: 7px;
+    width: 130px;
 }  
 input:invalid {
     border: solid 1px red;
 }
 .booking{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .booking p{
     text-align: left;
+    margin-left: 7px;
     font-size: 14px;
     color: rgb(201, 161, 49);
     font-weight: bold;
@@ -384,12 +390,13 @@ input:invalid {
 }
 .booking-data{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
 }
 .booking-data label{
     display: flex;
     text-align: left;
+    margin-left: 7px;
     font-size: 14px;
     color: rgb(201, 161, 49);
     font-weight: bold;
